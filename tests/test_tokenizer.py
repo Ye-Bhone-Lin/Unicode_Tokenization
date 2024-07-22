@@ -1,4 +1,5 @@
 import unittest
+from Unicode_Tokenization.tokenizer import syllable_tokenize
 
 class TestSyllableTokenize(unittest.TestCase):
     def test_syllable_tokenize(self):
